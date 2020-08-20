@@ -1,0 +1,40 @@
+{
+   "name": "flyp-auth",
+   "version": "1.0.0",
+   "description": "An authentication system built with Passport-JWT and Typeorm",
+   "main": "index.ts",
+   "scripts": {
+      "test": "node index.js",
+      "start": "ts-node src/index.ts"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Robbieakoto/flyp-auth.git"
+   },
+   "keywords": [
+      "node",
+      "Authentication",
+      "Passport.js-jwt",
+      "authentication",
+      "library"
+   ],
+   "author": "Roberta Akoto",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/Robbieakoto/flyp-auth/issues"
+   },
+   "homepage": "https://github.com/Robbieakoto/flyp-auth#readme",
+   "dependencies": {
+      "mongodb": "^3.6.0",
+      "mysql": "^2.18.1",
+      "passport-jwt": "^4.0.0",
+      "reflect-metadata": "^0.1.13",
+      "typeorm": "0.2.25"
+   },
+   "devDependencies": {
+      "@types/node": "^8.0.29",
+      "nodemon": "^2.0.4",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   }
+}
